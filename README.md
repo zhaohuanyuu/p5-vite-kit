@@ -1,3 +1,3 @@
 # view-kit
 
-multi page starter kit tool
+multi page starter kit tool base on vite
