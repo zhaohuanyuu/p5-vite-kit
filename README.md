@@ -1,3 +1,3 @@
 # au-vite-kit
 
-multi page starter kit tool base on vite
+multi framework starter kit tool base on vite
