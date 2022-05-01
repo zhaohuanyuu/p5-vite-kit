@@ -3,8 +3,12 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
-    "lib": ["ESNext"],
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["src"]
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "noEmit": true,
+    "isolatedModules": true
+  }
 }

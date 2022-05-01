@@ -1,13 +1,21 @@
 {
   "name": "au-vite-kit",
   "versoin": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4",
     "vite": "^2.9.6",
-    "typescript": "^4.6.4"
+    "vite-plugin-solid": "^2.2.6"
+  },
+  "dependencies": {
+    "solid-js": "^1.3.17"
   }
 }
