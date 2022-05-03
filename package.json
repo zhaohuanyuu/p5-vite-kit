@@ -1,6 +1,6 @@
 {
   "name": "au-vite-kit",
-  "versoin": "0.0.2",
+  "versoin": "1.0.0",
   "license": "MIT",
   "scripts": {
     "start": "vite",
