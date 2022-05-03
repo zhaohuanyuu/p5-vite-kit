@@ -16,6 +16,9 @@ body{ min-height: 100vh; }
 	/*color: #ed225d;*/
 	color: #2d7bb6;
 }
+.list-item a{
+	text-decoration: underline;
+}
 .aside-logo{
 	z-index: 2;
 	position: fixed;
