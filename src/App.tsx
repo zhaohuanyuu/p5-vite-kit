@@ -25,7 +25,7 @@ const App: Component = () => {
         </For>
       </ul>
       <aside class="aside-logo">
-        <Corner width="15rem" height="15rem" />
+        <Corner width="37.5rem" height="37.5rem" />
       </aside>
     </div>
   )

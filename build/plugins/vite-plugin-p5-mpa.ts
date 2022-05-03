@@ -40,7 +40,6 @@ export default function vitePluginP5Mpa(): Plugin {
 			// 2. remove all *.html at dest root
 			shell.rm('-rf', resolve(`${dest}/*.html`))
 				// 3. move src/pages/* to dest root
-			// shell.mv(resolve(`${dest}${options.dir}`), resolve(dest))
 			shell.mv(resolve(`${dest}/${options.dir}/*`), resolve(dest))
 			// 4. remove empty src dir
 			shell.rm('-rf', resolve(`${dest}/src`))
