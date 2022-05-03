@@ -1,4 +1,4 @@
-import "./style.css"
+import "./styles/style.css"
 import App from './App'
 import { render } from "solid-js/web"
 

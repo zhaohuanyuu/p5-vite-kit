@@ -1,6 +1,6 @@
 {
   "name": "au-vite-kit",
-  "versoin": "0.0.1",
+  "versoin": "0.0.2",
   "license": "MIT",
   "scripts": {
     "start": "vite",
@@ -8,8 +8,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^17.0.31",
     "autoprefixer": "^10.4.5",
+    "fast-glob": "^3.2.11",
     "postcss": "^8.4.13",
+    "shelljs": "^0.8.5",
     "tailwindcss": "^3.0.24",
     "typescript": "^4.6.4",
     "vite": "^2.9.6",
