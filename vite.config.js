@@ -13,5 +13,10 @@ export default defineConfig({
 		alias: {
 			'@addons': path.resolve(__dirname, './src/addons')
 		}
+	},
+	build: {
+		// because of p5js minified file is 800+lb
+		// so don't need to show bundle size warning
+		chunkSizeWarningLimit: 900
 	}
 })
