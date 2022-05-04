@@ -15,8 +15,8 @@ export default defineConfig({
 		}
 	},
 	build: {
-		// because of p5js minified file is 800+lb
+		// because of p5js minified file is 800+kb
 		// so don't need to show bundle size warning
-		chunkSizeWarningLimit: 900
+		chunkSizeWarningLimit: 850
 	}
 })
