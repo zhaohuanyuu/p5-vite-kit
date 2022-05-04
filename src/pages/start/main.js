@@ -1,4 +1,4 @@
-import { sketch } from "../../common/p5Wrapper";
+import { sketch } from "@addons/p5Wrapper";
 
 sketch.setup = function () {
 	createCanvas(800, 600);
