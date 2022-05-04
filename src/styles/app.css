@@ -26,3 +26,8 @@ body{ min-height: 100vh; }
 	right: -20%;
 	opacity: .7;
 }
+@media screen and (max-width: 1386px){
+	.aside-logo{
+		right: -26.8%;
+	}
+}
