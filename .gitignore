@@ -13,7 +13,7 @@
 node_modules
 
 # Assets directory
-/public
+#/public
 
 # Build files
 /dist

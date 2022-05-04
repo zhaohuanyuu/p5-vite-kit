@@ -58,7 +58,7 @@ Example: localhost:3000 will show the multiple page list named as their folder n
   <img width="100%" src="https://zhaohuanyuu.github.io/resource/repository/p5-kit.png" alt="p5-vite-kit">
 </p>
 
-### Bundle
+## Bundle
 
 After bundling, the pages in the corresponding pages directory will be promoted to the dist first-level directory, and you can use the preview command to preview it.
 
