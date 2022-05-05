@@ -11,6 +11,7 @@ export default defineConfig({
   ],
 	resolve: {
 		alias: {
+			'@styles': path.resolve(__dirname, './src/styles'),
 			'@addons': path.resolve(__dirname, './src/addons')
 		}
 	},

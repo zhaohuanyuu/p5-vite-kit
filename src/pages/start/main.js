@@ -1,3 +1,4 @@
+import "@styles/style.css";
 import { sketch } from "@addons/p5Wrapper";
 
 sketch.setup = function () {
