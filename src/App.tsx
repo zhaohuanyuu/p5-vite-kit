@@ -20,7 +20,7 @@ const App: Component = () => {
       <ul class="list-wrapper">
         <For each={list()}>
           {
-            (item, index) => <li class="list-item p-5 text-3xl"><span class='text-slate-900'>{ index()+1 }.</span><a href={ item.url }>{ item.name }</a></li>
+            (item, index) => <li class="list-item p-5 text-2xl"><span class='text-slate-900'>{ index()+1 }.</span><a href={ item.url }>{ item.name }</a></li>
           }
         </For>
       </ul>
