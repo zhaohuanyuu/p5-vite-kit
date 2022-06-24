@@ -6,7 +6,7 @@ multi page mode and framework starter kit tool base on vite.
 ## Quick Start
 
 ```shell
-$ npx degit zhaohuanyuu/p5-vite-kit my-p5-app
+$ npx degit zhaohuanyuu/p5-vite-kit#main my-p5-app
 
 $ cd my-p5-app
 
